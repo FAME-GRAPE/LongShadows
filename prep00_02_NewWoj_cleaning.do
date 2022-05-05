@@ -1,0 +1,18 @@
+replace region = strtrim(region)
+
+replace reg16 = 2 		if region=="dolnośląskie"
+replace reg16 = 4 		if region == "kujawsko-pomorskie"
+replace reg16 = 6 		if region == "lubelskie"
+replace reg16 = 8 		if region == "lubuskie"
+replace reg16 = 10	if region == "łódzkie"
+replace reg16 = 12	if region == "małopolskie"
+replace reg16 = 14	if region == "mazowieckie"
+replace reg16 = 16	if region == "opolskie"
+replace reg16 = 18	if region == "podkarpackie"
+replace reg16 = 20	if region == "podlaskie"
+replace reg16 = 22	if region == "pomorskie"
+replace reg16 = 24	if region == "śląskie"
+replace reg16 = 26	if region == "świętokrzyskie"
+replace reg16 = 28	if region == "warmińsko-mazurskie"
+replace reg16 = 30	if region == "wielkopolskie"
+replace reg16 = 32	if region == "zachodniopomorskie"
